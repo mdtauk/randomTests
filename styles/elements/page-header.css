@@ -1,0 +1,200 @@
+﻿/* #region PAGE HEADER BAR */
+
+.page-header-bar {
+    position: relative;
+    z-index: 8500;
+
+    /*min-height: 5rem;*/ /* 80px | 5 x 16 */
+}
+
+
+
+    .page-header-bar h2 {
+        float: left;
+        clear: none;
+        display: inline;
+
+        font-size: 2.5rem;
+        line-height: 1.25em;
+        font-weight: 300;
+
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .page-header-bar h3 {
+        float: right;
+        clear: none;
+        display: inline;
+
+        font-size: 1.75rem;
+        line-height: 1em;
+        font-weight: 400;
+
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+ /* #endregion */
+
+
+
+
+
+
+ /*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    .page-header-bar h2 {
+        float: none;
+        clear: both;
+        display: block;
+
+        font-size: 2rem;
+    }
+
+    .page-header-bar h3 {
+        float: none;
+        clear: both;
+        display: block;
+
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    .page-header-bar h2 {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+    .page-header-bar h3 {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    .page-header-bar h2 {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+    .page-header-bar h3 {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    .page-header-bar h2 {
+        width: 30rem;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    .page-header-bar h2 {
+        font-size: 3rem;
+        line-height: 1.5em;
+        font-weight: 300;
+
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    .page-header-bar h3 {
+        font-size: 2rem;
+        line-height: 1.5em;
+        font-weight: 400;
+
+        margin-right: 2rem;
+        margin-top: 1.25rem;
+    }
+
+}

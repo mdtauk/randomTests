@@ -1,0 +1,242 @@
+﻿/* #region HEADER BAR */
+
+#header-bar {
+    position: relative;
+    z-index: 8800;
+
+    background-color: #333;
+}
+
+ /* #endregion */
+
+
+
+
+
+
+h1 { display: none; }
+
+
+
+
+
+
+
+/* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+
+#search-disclose,
+#nav-disclose {
+    height: 5rem; /* 80px */
+    line-height: 5rem;
+    margin: 0;
+    float: right;
+    display: inline-block;
+    clear: none;
+}
+
+
+
+    #search-disclose a,
+    #nav-disclose a {
+        display: block;
+        height: 100%;
+        width: 4rem;
+        text-align: center;
+        margin: 0;
+        color: #ddd;
+    }
+
+
+
+    #search-disclose a.toggled,
+    #nav-disclose a.toggled {
+        background-color: #666;
+    }
+
+
+
+    #search-disclose a:hover,
+    #nav-disclose a:hover {
+        background-color: #111;
+        color: #fff;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     SPECIAL CASE FOR THE LOGO
+    ***     min_                    |   max_    >340px  /  21.25em
+    ***
+*/
+@media (max-width: 21.25em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+    
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+
+    #search-disclose,
+    #nav-disclose {
+        height: 4rem; /* 64px */
+        line-height: 4rem;
+    }
+
+
+
+    #search-disclose a,
+    #nav-disclose a {
+        width: 3.5rem; /* 54px */
+        font-size: 0.9rem;
+    }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+
+    #search-disclose {
+        display: none;
+    }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */   
+    
+    #search-disclose,
+    #nav-disclose {
+        display: none;
+    }
+     
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+    
+    #search-disclose,
+    #nav-disclose {
+        display: none;
+    }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    /* #region SEARCH AND NAV DISCLOSURE TOGGLES */
+
+    #search-disclose,
+    #nav-disclose {
+        height: 6rem; /* 96px */
+        line-height: 6rem;
+        display: none;
+    }
+
+
+
+    #search-disclose a,
+    #nav-disclose a {
+        width: 5rem; /* 80px */
+        font-size: 1.3rem;
+    }
+
+    /* #endregion */
+
+}

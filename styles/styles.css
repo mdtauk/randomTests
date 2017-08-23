@@ -1,0 +1,214 @@
+﻿/* MAIN RESET */
+@import url('base/meyer-reset.css');
+
+/* BASE TYPOGRAPHY */
+@import url('base/typography.css');
+
+/* BASE FRAMEWORK */
+@import url('base/framework.css');
+
+/* LAYOUT ELEMENT STYLE SHEETS */
+@import url('elements/alerts.css');
+@import url('elements/header.css');
+@import url('elements/logos.css');
+@import url('elements/search.css');
+@import url('elements/navigation.css');
+@import url('elements/page-header.css');
+@import url('elements/sections.css');
+@import url('elements/section-header.css');
+@import url('elements/menus.css');
+@import url('elements/text-blocks.css');
+@import url('elements/image-blocks.css');
+@import url('elements/footers.css');
+
+/* CONTENT SPECIFIC ELEMENT STYLE SHEETS */
+@import url('elements/people-blocks.css');
+
+/* BASE DECORATOR STYLES */
+@import url('base/decorators.css');
+
+/* BASE COLOUR PALETTES */
+@import url('base/colours.css');
+
+
+
+/*
+    ***     Base measurement for Fonts and EMs is 16px = 1em
+    ***     Increments of 8px for borders and paddings so 8px = 0.5em
+    ***
+    ***     Spacing between image blocks, menu blocks, text blocks etc is
+    ***     40px = 2.5rem (rem takes its inheritence from the root)
+    ***
+    ***     
+    ***     Increments for Media Queries are as follows
+    ***     
+    ***     
+    ***     XL DESKTOP
+    ***     min_    1984px / 124em       |                                  salmon
+    ***     
+    ***     L DESKTOP
+    ***     min_    1264px / 79em        |    max_  >1984px / 123.9999em    Purple
+    ***     
+    ***     DESKTOP
+    ***     min_    1024px / 64em        |    max_  >1264px  / 78.9999em    Pink
+    ***     
+    ***     L TABLET
+    ***     min_     784px / 49em        |    max_  >1024px  / 63.9999em    Green
+    ***     
+    ***     S TABLET
+    ***     min_     544px / 34em        |    max_   >784px  / 48.9999em    Blue
+    ***     
+    ***     PHONE
+    ***     min_                         |    max_   >544px  / 33.9999em    Yellow
+*/
+
+
+
+
+
+
+/* #region TESTING VALUES */
+
+.container {
+    /*background-color: rgba(255, 255, 255, 0.04);*/
+}
+
+.bodytext {
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+}
+
+#header-bar {
+    /*overflow: hidden;*/
+}
+
+#search-box {
+    background-color: #444;
+    /*overflow: hidden;*/
+}
+
+section > .container {
+    /*background-color: #eee;*/
+}
+
+/* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    /*body { background-color: #f6f0b3; }*/ /* Yellow */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    /*body { background-color: #cae1ee; }*/ /* Blue */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    /*body { background-color: #c6ebc4; }*/ /* Green */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    /*body { background-color: #f2d8e7; }*/ /* Pink */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    /*body { background-color: #e2d2f7; }*/ /* Purple */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) {
+
+    /*body { background-color: #ffd6af; }*/ /* salmon */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     Martin Anderson
+    ***     The TV Room 2014
+    ***
+    
+*/

@@ -1,0 +1,177 @@
+﻿/* #region INITIAL */
+
+@-ms-viewport   { width: device-width; }
+@-o-viewport    { width: device-width; }
+@viewport       { width: device-width; }
+
+
+
+.cf { zoom: 1; }
+
+.cf:before, .cf:after { content: ""; display: table; }
+
+.cf:after { clear: both; }
+
+
+
+.container {
+    width: auto;
+    min-width: 20rem;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* #endregion */
+
+
+
+
+
+
+/* #region IMAGES */
+
+img { vertical-align: bottom; }
+
+    img.image-16-9, img.image-4-3 { margin: 0.5rem; /* 8px */ }
+
+    img.image-16-9 { width: 29rem; /* 464px */ }
+
+    img.image-4-3 { width: 24.3125rem; /* 389px */ }
+
+/* endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    html { font-size: 14px; }
+
+
+
+    /* #region IMAGES */
+
+    img { vertical-align: bottom; }
+
+        img.image-16-9, 
+        img.image-4-3 { 
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 1em; 
+        }
+
+        img.image-16-9 { width: 100%; }
+
+        img.image-4-3 { width: 100%; }
+
+    /* endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    .container {
+        width: 63em; /* 1008px */
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    .container {
+        width: 78em; /* 1248px */
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) {
+
+    .container {
+        width: 123em; /* 1968px */
+        margin: 0 auto;      
+    }
+
+}

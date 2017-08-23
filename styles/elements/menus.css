@@ -1,0 +1,1235 @@
+﻿/* #region ALL MENUS */
+
+nav.menu {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+
+
+    nav.menu ul {
+        display: block;
+        float: none;
+        clear: both; 
+        margin-bottom: 1.5rem;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;      
+    }
+
+
+
+    nav.menu li {
+        float: left;
+        clear: none;
+        display: inline-block;
+        overflow: hidden;
+        text-align: left;
+        line-height: 1.5rem;
+        font-weight: 500;
+
+        /* box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
+           -moz-box-shadow: 0px 0.0625rem 0.0625rem -0.0625rem rgba(0,0,0,0.2); /* 0.0625rem = 1px */
+        -webkit-box-shadow: 0px 0.0625rem 0.0625rem -0.0625rem rgba(0,0,0,0.2);
+                box-shadow: 0px 0.0625rem 0.0625rem -0.0625rem rgba(0,0,0,0.2);
+
+        position: relative;
+        z-index: 7377;
+
+        color: #aaa;
+    }
+
+
+
+        nav.menu li span {
+            float: none;
+            clear: both;
+            display: block;
+
+            font-weight: 400;
+
+            color: #aaa;
+        }
+
+
+
+        nav.menu li a {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            height: 100%;
+            display: block;
+
+            background-color: #fff;
+            color: #555;
+            text-decoration: none;
+        }
+
+
+
+        nav.menu li a:hover {
+        }
+
+
+
+        nav.menu li a:hover span {
+            color: #fff;
+        }
+
+
+
+        nav.menu li a:active {
+            background-color: #555;
+            color: #fff;
+        }
+
+
+
+        nav.menu li a:active span {
+            color: #fff;
+        }
+
+
+
+
+
+
+        nav.menu li.updated {  
+        }
+
+
+
+            nav.menu li.updated a {
+                margin-left: 0.5em;
+                padding-left: 0.5em;
+            }
+
+
+
+
+
+
+        nav.menu li.disabled {  
+        }
+
+
+
+            nav.menu li.disabled div {
+                padding-left: 1em;
+                padding-right: 1em;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                float: none;
+                clear: both;
+                display: block;
+                cursor: default;
+
+                background-color: #f7f7f7;
+            }
+
+
+
+
+
+
+        nav.menu li.current {  
+        }
+
+
+
+            nav.menu li.current div {
+                padding-left: 1em;
+                padding-right: 1em;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                float: none;
+                clear: both;
+                display: block;
+                cursor: default;
+            }
+
+
+
+
+
+
+        nav.menu li.caption {
+            border-left-width: 0.5em;
+            border-left-style: solid;
+            border-bottom-width: 0.0625em; /* 1px */
+            border-bottom-style: solid;
+            padding-left: 0.5em;
+            padding-top: 0.5em;
+            padding-bottom: 0.4375em; /* 7px */
+            float: none;
+            clear: both;
+            display: block;
+            width: auto;
+            height: 1.5rem; /* 24px */
+
+            border-left-color: #999;
+            border-bottom-color: #999;
+            color: #888;
+        }
+
+/* #endregion */
+
+
+
+
+
+
+/* #region SPECIFIC MENUS */
+
+nav.tiny-menu,
+nav.small-menu-1,
+nav.small-menu-2,
+nav.medium-menu,
+nav.large-menu {
+    margin-bottom: 2.5em; /* 40px */
+}
+
+nav.page-menu,
+nav.category-menu,
+nav.level-menu,
+nav.level-menu-fixed {
+    margin-bottom: 0.5em;
+}
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        clear: both;
+        display: block;        
+    }
+
+
+
+    nav.level-menu-fixed li {
+        width: 25%;
+        height: 2.5em; /* 40px */
+    }
+
+
+
+    nav.tiny-menu li {
+        width: 20%;
+        height: 2.5em; /* 40px */
+    }
+
+
+
+    nav.small-menu-1 li {
+        width: 25%;
+        height: 2.5em; /* 40px */
+    }
+
+
+
+    nav.small-menu-2 li {
+        width: 33.3333%;
+        height: 2.5em; /* 40px */
+    }
+
+
+
+    nav.medium-menu li {
+        width: 33.3333%;
+        height: 4em; /* 64px */
+    }
+
+
+
+    nav.large-menu li {
+        width: 50%;
+        height: 5.5em; /* 88px */
+    }
+
+
+
+    nav.tiny-menu li span,
+    nav.small-menu-1 li span,
+    nav.small-menu-2 li span {
+        float: right;
+        clear: none;
+        display: inline-block;
+    }
+
+
+
+        nav.page-menu li a,
+        nav.category-menu li a,
+        nav.level-menu li a,
+        nav.level-menu-fixed li a { 
+            background-color: #eee;
+            color: #555;   
+        }
+
+
+
+    nav.menu li a:hover {
+    }
+
+
+        nav.menu li a:hover span {
+        }
+
+
+
+    nav.menu li a:active {
+    }
+
+
+        nav.menu li a:active span {
+        }
+
+
+
+
+
+
+        nav.page-menu li.disabled div,
+        nav.category-menu li.disabled div,
+        nav.level-menu li.disabled div,
+        nav.level-menu-fixed li.disabled div {
+            background-color: #f7f7f7;
+        }
+
+
+
+
+
+
+    nav.level-menu li.caption {
+        margin-right: 0;
+    }
+
+
+
+    nav.level-menu-fixed li.caption {
+    }
+
+
+
+    nav.page-menu li.caption,
+    nav.category-menu li.caption {
+        float: left;
+        clear: none;
+        display: inline-block;
+        width: 232px;
+        margin: 0;
+        overflow: hidden;
+    }
+
+
+
+    nav.page-menu li.caption,
+    nav.category-menu li.caption,
+    nav.level-menu li.caption,
+    nav.level-menu-fixed li.caption {
+        border-left-color: #bbb;
+        border-bottom-color: #bbb;
+        color: #aaa;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/* #region PEOPLE MENUS */
+
+nav.people-menu {
+    margin-bottom: 2.5em; /* 40px */
+}
+
+
+
+    nav.people-menu li {
+        width: 33.3333%;
+        height: 5.5em; /* 88px */
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+
+
+        nav.people-menu li.caption {
+            margin-bottom: 0;
+        }
+
+
+
+        nav.people-menu li a,
+        nav.people-menu li.disabled div {
+            padding: 0;
+            display: block;
+            height: 5.5em; /* 88px */
+            overflow: hidden;
+        }
+
+
+
+        nav.people-menu li.updated p {
+            padding-left: 0;
+            padding-right: 1em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+
+
+        nav.people-menu li p,
+        nav.people-menu li.disabled p {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+
+
+    nav.people-menu img {
+        float: right;
+        clear: none;
+        display: inline-block;
+    }
+
+
+
+
+        nav.people-menu li.disabled div {
+            background-color: #f7f7f7;
+        }
+
+
+
+
+
+
+    nav.people-menu li.caption {
+        margin-right: 0;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    nav.menu {
+        padding-left: 1em;
+        padding-right: 1em;
+
+        font-size: 16px;
+    }
+
+
+
+    nav.menu ul {
+        margin-left: 0;
+        margin-right: 0;    
+    }
+
+
+
+    nav.menu li {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+
+
+        nav.menu li a,
+        nav.menu li.current div,
+        nav.menu li.disabled div {
+            padding: 1em;
+        }
+
+
+
+    nav.page-menu li,
+    nav.category-menu li {
+        float: left;
+        clear: none;
+        display: inline-block;
+    }
+
+
+
+    nav.page-menu li.caption,
+    nav.category-menu li.caption {
+        float: none;
+        width: auto;
+        clear: both;
+        display: block;
+    }
+
+
+
+    nav.tiny-menu,
+    nav.small-menu-1,
+    nav.small-menu-2,
+    nav.medium-menu,
+    nav.large-menu {
+        margin-bottom: 4rem; /* 64px */
+    }
+
+
+
+    nav.page-menu,
+    nav.category-menu,
+    nav.level-menu,
+    nav.level-menu-fixed {
+        margin-bottom: 3rem;
+    }
+
+
+    
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: auto;
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: auto;
+    }
+    
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.page-menu li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.category-menu li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.level-menu li {
+            width: 100%;
+            height: auto;
+        }
+
+
+    
+        nav.level-menu-fixed li {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        nav.tiny-menu li {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        nav.small-menu-1 li {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        nav.small-menu-2 li {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        nav.medium-menu li {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        nav.large-menu li {
+            width: 100%;
+            height: auto;
+        }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region PEOPLE-MENU */
+    
+    nav.people-menu li {
+        width: auto;
+        height: 5.5rem; /* 88px */
+    }
+
+
+
+        nav.people-menu li a,
+        nav.people-menu li.disabled div {
+            padding: 0;
+            display: block;
+            height: 5.5em; /* 88px */
+            overflow: hidden;
+        }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    nav.menu {
+        padding-left: 1em;
+        padding-right: 1em;
+
+        font-size: 16px;
+    }
+
+
+
+    nav.menu ul {
+        margin-left: 0;
+        margin-right: 0;    
+    }
+
+
+
+        nav.menu li a,
+        nav.menu li.current div,
+        nav.menu li.disabled div {
+            padding: 1em;
+            margin: 0;
+            display: block;
+            height: 100%;
+        }
+
+
+
+    nav.page-menu li,
+    nav.category-menu li {
+        float: left;
+        clear: none;
+        display: inline-block;
+    }
+
+
+
+    nav.page-menu li.caption,
+    nav.category-menu li.caption {
+        float: none;
+        width: auto;
+        clear: both;
+        display: block;
+    }
+
+
+
+    nav.tiny-menu,
+    nav.small-menu-1,
+    nav.small-menu-2,
+    nav.medium-menu,
+    nav.large-menu {
+        margin-bottom: 4rem; /* 64px */
+    }
+
+
+
+    nav.page-menu,
+    nav.category-menu,
+    nav.level-menu,
+    nav.level-menu-fixed {
+        margin-bottom: 3rem;
+    }
+
+
+    
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: auto;
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: auto;
+    }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.page-menu li {
+            width: 20%;
+            height: auto;
+        }
+
+
+
+        nav.category-menu li {
+            width: 33.3333%;
+            height: auto;
+        }
+    
+
+
+        nav.level-menu li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.level-menu-fixed li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.tiny-menu li {
+            width: 33.3333%;
+            height: auto;
+        }
+
+
+
+        nav.small-menu-1 li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.small-menu-2 li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.medium-menu li {
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        nav.large-menu li {
+            width: 100%;
+            height: auto;
+        }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region PEOPLE-MENU */
+    
+    nav.people-menu li {
+        width: 50%;
+        display: block;
+        height: 5.5rem; /* 88px */
+    }
+
+
+
+        nav.people-menu li a,
+        nav.people-menu li.disabled div {
+            padding: 0;
+            display: block;
+            height: 5.5em; /* 88px */
+            overflow: hidden;
+        }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    nav.menu {
+        padding-left: 1em;
+        padding-right: 1em;
+
+        font-size: 16px;
+    }
+
+
+
+    nav.menu ul {
+        margin-left: 0;
+        margin-right: 0;    
+    }
+
+
+    
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: auto;
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: auto;
+    }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.category-menu li {
+        }
+    
+
+
+        nav.level-menu li {
+            width: 33.3333%;
+        }
+
+
+
+        nav.level-menu-fixed li {
+            width: 33.3333%;
+        }
+
+
+
+
+
+
+        nav.tiny-menu li {
+            width: 25%;
+        }
+
+
+
+        nav.small-menu-1 li {
+            width: 33.3333%;
+        }
+
+
+
+        nav.small-menu-2 li {
+            width: 33.3333%;
+        }
+
+
+
+        nav.medium-menu li {
+            width: 50%;
+        }
+
+
+
+        nav.large-menu li {
+            width: 50%;
+        }
+
+    /* #endregion */
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    nav.menu ul {
+        margin-left: 1rem;
+        margin-right: 1rem;    
+    }
+
+
+
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: 61em; /* 976px | 16 + 464 + 16 + 464 + 16 */
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: 59rem; /* 944px | 976 - 16 - 16 */
+    }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.level-menu-fixed li {
+        }
+
+
+
+        nav.tiny-menu li {
+        }
+
+
+
+        nav.small-menu-1 li {
+        }
+
+
+
+        nav.small-menu-2 li {
+        }
+
+
+
+        nav.medium-menu li {
+        }
+
+
+
+        nav.large-menu li {
+        }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    nav.menu ul {
+        margin-left: 1rem;
+        margin-right: 1rem;    
+    }
+    
+    
+    
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: 75rem; /* 1200px | 16 + 464 + 16 + 464 + 16 + 224 */
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: 73rem; /* 1168px | 1200 - 16 - 16 */
+    }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.level-menu-fixed li {
+        }
+
+
+
+        nav.tiny-menu li {
+        }
+
+
+
+        nav.small-menu-1 li {
+        }
+
+
+
+        nav.small-menu-2 li {
+        }
+
+
+
+        nav.medium-menu li {
+        }
+
+
+
+        nav.large-menu li {
+        }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    nav.menu ul {
+        margin-left: 1rem;
+        margin-right: 1rem;    
+    }
+    
+    
+    
+    nav.menu li {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+
+
+
+        nav.menu li.caption {
+            height: 2rem; /* 32px */
+        }
+
+
+
+    nav.tiny-menu,
+    nav.small-menu-1,
+    nav.small-menu-2,
+    nav.medium-menu,
+    nav.large-menu {
+        margin-bottom: 4rem; /* 64px */
+    }
+
+
+
+    nav.page-menu,
+    nav.category-menu,
+    nav.level-menu,
+    nav.level-menu-fixed {
+        margin-bottom: 3rem;
+    }
+    
+    
+
+    /* #region MENU UL WIDTHS */
+    
+    nav.tiny-menu ul,
+    nav.small-menu-1 ul,
+    nav.small-menu-2 ul,
+    nav.medium-menu ul,
+    nav.large-menu ul {
+        width: 119em; /* 1904px */
+    }
+
+
+
+    nav.page-menu ul,
+    nav.category-menu ul,
+    nav.level-menu ul,
+    nav.level-menu-fixed ul {
+        width: 117rem; /* 1872px | 1904 - 16 - 16 */
+    }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region MENU LI WIDTHS */
+
+        nav.level-menu-fixed li {
+            width: 20%;
+        }
+
+
+
+        nav.tiny-menu li {
+            width: 11.1111%;
+        }
+
+
+
+        nav.small-menu-1 li {
+            width: 20%;
+        }
+
+
+
+        nav.small-menu-2 li {
+            width: 25%;
+        }
+
+
+
+        nav.medium-menu li {
+            width: 25%;
+        }
+
+
+
+        nav.large-menu li {
+            width: 33.3333%;
+        }
+
+    /* #endregion */
+
+
+
+
+
+
+    /* #region PEOPLE-MENU */
+    
+    nav.people-menu li {
+        width: 25%;
+        display: block;
+        height: 5.5rem; /* 88px */
+    }
+
+
+
+        nav.people-menu li a,
+        nav.people-menu li.disabled div {
+            padding: 0;
+            display: block;
+            height: 5.5em; /* 88px */
+            overflow: hidden;
+        }
+
+    /* #endregion */
+
+}

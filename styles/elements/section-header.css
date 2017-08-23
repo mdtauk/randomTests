@@ -1,0 +1,140 @@
+﻿/* #region SECTION HEADER BAR */
+
+.section-header-bar {
+    position: relative;
+    z-index: 8400;
+
+    /*min-height: 3rem;*/ /* 64px | 4 x 16 */
+}
+
+
+
+.disclose-button {
+    margin-left: 1em;
+    margin-right: 1em;
+        
+    display: inline-block;
+}
+
+.disclose-button a {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    cursor: pointer;
+    display: block;
+}
+
+    .disclose-button a:hover {
+        background-color: #eee;
+    }
+
+
+
+.disclose-container {
+    clear: both;
+    float: none;
+    position: relative;
+    text-align: center;
+
+    padding-top: 1.5rem;
+}
+
+ /* #endregion */
+
+
+
+
+
+
+ /*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+}

@@ -1,0 +1,155 @@
+﻿/*
+    *
+    * MAIN SITE ORANGE COLOURS *
+    *
+*/
+
+/*
+    * Color l5  #ffe8ba
+    * Color l4  #ffd99c
+    * Color l3  #fec77e
+    * Color l2  #feb15e
+    * Color l1  #fc973d
+    *
+    * Color 0   #fc7b1c
+    *
+    * Color d1  #da5f15
+    * Color d2  #b7460f
+    * Color d3  #953109
+    * Color d4  #732005
+    * Color d5  #521302
+*/
+
+body#orange .gradient {
+    /* gradient values Color l1 - Color 0 - Color d1 */
+    background: -webkit-linear-gradient(left, #fc973d, #fc7b1c, #da5f15); /* For Safari */
+    background:    -moz-linear-gradient(right, #fc973d, #fc7b1c, #da5f15); /* For Firefox 3.6 to 15 */
+    background:      -o-linear-gradient(right, #fc973d, #fc7b1c, #da5f15); /* For Opera 11.1 to 12.0 */
+    background:     -ms-linear-gradient(right, #fc973d, #fc7b1c, #da5f15); /* For IE */
+    background:         linear-gradient(to right, #fc973d 0%, #fc7b1c 50%, #da5f15 100%); /* Standard syntax */
+}
+
+
+
+
+body#orange stop.screen-gradient-0 {
+    stop-color: #feb15e; /* Color l2 */
+}
+body#orange stop.screen-gradient-1 {
+    stop-color: #fc7b1c; /* Color 0 */
+}
+body#orange stop.screen-gradient-2 {
+    stop-color: #da5f15; /* Color d1 */
+}
+
+
+body#orange stop.light-gradient-0 {
+    stop-color: #ffe8ba; /* Color l5 */
+}
+body#orange stop.light-gradient-1 {
+    stop-color: #fec77e; /* Color l3 */
+}
+body#orange stop.light-gradient-2 {
+    stop-color: #fc973d; /* Color l1 */
+}
+
+
+body#orange stop.dark-gradient-0 {
+    stop-color: #da5f15; /* Color d1 */
+}
+body#orange stop.dark-gradient-1 {
+    stop-color: #953109; /* Color d3 */
+}
+body#orange stop.dark-gradient-2 {
+    stop-color: #732005; /* Color d4 */
+}
+
+
+
+
+
+body#orange nav.menu li a:hover,
+body#orange nav.people-menu li a:hover {
+        background-color: #fc7b1c; /* Color 0 */
+        color: #fff;
+    }
+
+body#orange nav.menu li.current div {
+    background-color: #fc7b1c; /* Color 0 */
+}
+
+body#orange nav.menu li.updated,
+body#orange nav.people-menu li.updated {
+    background-color: #ffd99c; /* Color l4 */
+}
+
+body#orange nav.menu li.current div {
+    background-color: #fc7b1c; /* Color 0 */
+    color: #fff;
+}
+
+    body#orange .profile-details a {
+        background-color: transparent;
+        color: #fc7b1c; /* Color 0 */
+    }
+
+        body#orange .profile-details a:hover {            
+            background-color: #fc7b1c; /* Color 0 */
+            color: #fff;
+        }
+
+body#orange footer .acknowledgement a:hover {
+    color: #fc7b1c; /* Color 0 */
+}
+
+
+
+
+
+/* INDIVIDUAL SHADES */
+
+body#orange .bg-color-0 { background-color: #fc7b1c; }
+body#orange .brdr-color-0 { border-color: #fc7b1c; }
+body#orange .color-0 { color: #fc7b1c; }
+
+
+body#orange .bg-color-l1 { background-color: #fc973d; }
+body#orange .brdr-color-l1 { border-color: #fc973d; }
+body#orange .color-l1 { color: #fc973d; }
+
+body#orange .bg-color-l2 { background-color: #feb15e; }
+body#orange .brdr-color-l2 { border-color: #feb15e; }
+body#orange .color-l2 { color: #feb15e; }
+
+body#orange .bg-color-l3 { background-color: #fec77e; }
+body#orange .brdr-color-l3 { border-color: #fec77e; }
+body#orange .color-l3 { color: #fec77e; }
+
+body#orange .bg-color-l4 { background-color: #ffd99c; }
+body#orange .brdr-color-l4 { border-color: #ffd99c; }
+body#orange .color-l4 { color: #ffd99c; }
+
+body#orange .bg-color-l5 { background-color: #ffe8ba; }
+body#orange .brdr-color-l5 { border-color: #ffe8ba; }
+body#orange .color-l5 { color: #ffe8ba; }
+
+
+body#orange .bg-color-d1 { background-color: #da5f15; }
+body#orange .brdr-color-d1 { border-color: #da5f15; }
+body#orange .color-d1 { color: #da5f15; }
+
+body#orange .bg-color-d2 { background-color: #b7460f; }
+body#orange .brdr-color-d2 { border-color: #b7460f; }
+body#orange .color-d2 { color: #b7460f; }
+
+body#orange .bg-color-d3 { background-color: #953109; }
+body#orange .brdr-color-d3 { border-color: #953109; }
+body#orange .color-d3 { color: #953109; }
+
+body#orange .bg-color-d4 { background-color: #732005; }
+body#orange .brdr-color-d4 { border-color: #732005; }
+body#orange .color-d4 { color: #732005; }
+
+body#orange .bg-color-d5 { background-color: #521302; }
+body#orange .brdr-color-d5 { border-color: #521302; }
+body#orange .color-d5 { color: #521302; }

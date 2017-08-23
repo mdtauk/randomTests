@@ -1,0 +1,203 @@
+﻿#nav-bar {
+    display: block;
+    position: relative;
+    z-index: 8600;
+
+    line-height: 1rem;
+    
+    background-color: #555;
+}
+
+
+
+nav#top-nav {
+    vertical-align: top;
+}
+
+
+
+    /* #region PRIMARY NAV LIST */
+    nav#top-nav ul.primary {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+
+    nav#top-nav ul.primary > li {        
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+
+    nav#top-nav ul.primary > li a {
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+
+            text-decoration: none;
+
+            color: #ccc;
+        }
+
+
+
+            nav#top-nav ul.primary > li a:hover {
+                background-color: #444;
+                color: #fff;
+            }
+     /* #endregion */
+
+
+
+     
+     
+     
+    /* #region SECONDARY NAV LISTS */ 
+
+    /* 
+        *   Secondary menus need to be responsive.  Displayed as hover on larger screens
+        *   And inline with toggle for smaller displays
+    */
+
+    nav#top-nav ul.secondary {
+        /*display: none;*/
+        display: block; 
+        width: 100%;      
+        
+        background-color: #666;
+    }
+
+        nav#top-nav ul.secondary > li {
+            display: block; 
+            width: 100%;
+        }
+
+    /* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    nav#top-nav ul.primary { display: block; margin: 0;}
+
+    nav#top-nav ul.primary > li { display: block; width: 100%; }
+
+    nav#top-nav ul.primary > li a { padding: 1rem; }
+    
+    nav#top-nav ul.secondary { display: block; margin: 0; }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    nav#top-nav li {
+        display: inline-block;
+        width: 33.3333%;
+    }
+
+    nav#top-nav ul.secondary { display: none; }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    nav#top-nav li {
+        display: inline-block;
+        width: 50%;
+    }
+
+    nav#top-nav ul.secondary { display: none; }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    nav#top-nav ul.secondary { display: none; }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    nav#top-nav ul.secondary { display: none; }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    nav#top-nav ul.secondary { display: none; }
+
+}

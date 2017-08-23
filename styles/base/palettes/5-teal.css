@@ -1,0 +1,153 @@
+﻿/*
+    *
+    * MAIN SITE TEAL COLOURS *
+    *
+*/
+
+/*
+    * Color l5  #c3f9f7
+    * Color l4  #a8f3ee
+    * Color l3  #8ce9e0
+    * Color l2  #6eddce
+    * Color l1  #4fcdb8
+    *
+    * Color 0   #2fbb9f
+    *
+    * Color d1  #239c81
+    * Color d2  #187e66
+    * Color d3  #0f634d
+    * Color d4  #094938
+    * Color d5  #043224
+*/
+
+body#teal .gradient {
+    /* gradient values Color l1 - Color d1 */
+    background: -webkit-linear-gradient(left, #4fcdb8, #2fbb9f, #239c81); /* For Safari */
+    background: -o-linear-gradient(right, #4fcdb8, #2fbb9f, #239c81); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #4fcdb8, #2fbb9f, #239c81); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #4fcdb8 0%, #2fbb9f 50%, #239c81 100%); /* Standard syntax */
+}
+
+
+
+
+body#teal stop.screen-gradient-0 {
+    stop-color: #6eddce; /* Color l2 */
+}
+body#teal stop.screen-gradient-1 {
+    stop-color: #2fbb9f; /* Color 0 */
+}
+body#teal stop.screen-gradient-2 {
+    stop-color: #239c81; /* Color d1 */
+}
+
+
+body#teal stop.light-gradient-0 {
+    stop-color: #c3f9f7; /* Color l5 */
+}
+body#teal stop.light-gradient-1 {
+    stop-color: #8ce9e0; /* Color l3 */
+}
+body#teal stop.light-gradient-2 {
+    stop-color: #4fcdb8; /* Color l1 */
+}
+
+
+body#teal stop.dark-gradient-0 {
+    stop-color: #239c81; /* Color d1 */
+}
+body#teal stop.dark-gradient-1 {
+    stop-color: #0f634d; /* Color d3 */
+}
+body#teal stop.dark-gradient-2 {
+    stop-color: #094938; /* Color d4 */
+}
+
+
+
+
+
+body#teal nav.menu li a:hover,
+body#teal nav.people-menu li a:hover {
+    background-color: #2fbb9f; /* Color 0 */
+    color: #fff;
+}
+body#teal nav.menu li.current div {
+    background-color: #2fbb9f; /* Color 0 */
+}
+
+body#teal nav.menu li.updated,
+body#teal nav.people-menu li.updated  {
+    background-color: #a8f3ee; /* Color l4 */
+}
+
+body#teal nav.menu li.current div {
+    background-color: #2fbb9f; /* Color 0 */
+    color: #fff;
+}
+
+    body#teal .profile-details a {
+        background-color: transparent;
+        color: #2fbb9f; /* Color 0 */
+    }
+
+        body#teal .profile-details a:hover {            
+            background-color: #2fbb9f; /* Color 0 */
+            color: #fff;
+        }
+
+body#teal footer .acknowledgement a:hover {
+    color: #2fbb9f; /* Color 0 */
+}
+
+
+
+
+
+/* INDIVIDUAL SHADES */
+
+body#teal .bg-color-0 { background-color: #2fbb9f; }
+body#teal .brdr-color-0 { border-color: #2fbb9f; }
+body#teal .color-0 { color: #2fbb9f; }
+
+
+body#teal .bg-color-l1 { background-color: #4fcdb8; }
+body#teal .brdr-color-l1 { border-color: #4fcdb8; }
+body#teal .color-l1 { color: #4fcdb8; }
+
+body#teal .bg-color-l2 { background-color: #6eddce; }
+body#teal .brdr-color-l2 { border-color: #6eddce; }
+body#teal .color-l2 { color: #6eddce; }
+
+body#teal .bg-color-l3 { background-color: #8ce9e0; }
+body#teal .brdr-color-l3 { border-color: #8ce9e0; }
+body#teal .color-l3 { color: #8ce9e0; }
+
+body#teal .bg-color-l4 { background-color: #a8f3ee; }
+body#teal .brdr-color-l4 { border-color: #a8f3ee; }
+body#teal .color-l4 { color: #a8f3ee; }
+
+body#teal .bg-color-l5 { background-color: #c3f9f7; }
+body#teal .brdr-color-l5 { border-color: #c3f9f7; }
+body#teal .color-l5 { color: #c3f9f7; }
+
+
+body#teal .bg-color-d1 { background-color: #239c81; }
+body#teal .brdr-color-d1 { border-color: #239c81; }
+body#teal .color-d1 { color: #239c81; }
+
+body#teal .bg-color-d2 { background-color: #187e66; }
+body#teal .brdr-color-d2 { border-color: #187e66; }
+body#teal .color-d2 { color: #187e66; }
+
+body#teal .bg-color-d3 { background-color: #0f634d; }
+body#teal .brdr-color-d3 { border-color: #0f634d; }
+body#teal .color-d3 { color: #0f634d; }
+
+body#teal .bg-color-d4 { background-color: #094938; }
+body#teal .brdr-color-d4 { border-color: #094938; }
+body#teal .color-d4 { color: #094938; }
+
+body#teal .bg-color-d5 { background-color: #043224; }
+body#teal .brdr-color-d5 { border-color: #043224; }
+body#teal .color-d5 { color: #043224; }

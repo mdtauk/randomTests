@@ -1,0 +1,163 @@
+﻿.bodytext {
+    font-size: 1.125em; /* 18px */
+    line-height: 1.5em; /* 24px */
+    text-align: justify;
+    hyphens: none;
+
+    -webkit-column-rule-style: solid;
+       -moz-column-rule-style: solid;
+            column-rule-style: solid;
+
+    -webkit-column-rule-width: 0.0625em; /* 1px */
+       -moz-column-rule-width: 0.0625em; /* 1px */
+            column-rule-width: 0.0625em; /* 1px */
+
+    -webkit-column-gap: 4rem;
+       -moz-column-gap: 4rem;
+            column-gap: 4rem;
+
+       margin-top: 0;
+      margin-left: 2rem;
+     margin-right: 2rem;
+    margin-bottom: 3rem;
+
+    -webkit-column-rule-color: rgba(0, 0, 0, 0.15);
+       -moz-column-rule-color: rgba(0, 0, 0, 0.15);
+            column-rule-color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+    .bodytext p {
+        margin-bottom: 1rem;
+    }
+
+
+
+    .bodytext h4 {        
+        font-weight: 500;
+    }
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    .bodytext {
+        margin-top: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    .bodytext {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;        
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    .bodytext {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;        
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    .bodytext {
+        font-size: 1.25rem; /* 20px font */
+        line-height: 2rem; /* 32px line-height */
+
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;        
+    }
+
+}

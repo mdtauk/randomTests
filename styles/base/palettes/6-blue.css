@@ -1,0 +1,154 @@
+﻿/*
+    *
+    * MAIN SITE BLUE COLOURS *
+    *
+*/
+
+/*
+    * Color l5  #c7f3fd
+    * Color l4  #ade8fa
+    * Color l3  #93d9f7
+    * Color l2  #75c5f3
+    * Color l1  #57aded
+    *
+    * Color 0   #3792e6
+    *
+    * Color d1  #2975c5
+    * Color d2  #1c5aa4
+    * Color d3  #124383
+    * Color d4  #0a2f65
+    * Color d5  #051e47
+*/
+
+body#blue .gradient {
+    /* gradient values Color l1 - Color d1 */
+    background: -webkit-linear-gradient(left, #57aded, #3792e6, #2975c5); /* For Safari */
+    background: -o-linear-gradient(right, #57aded, #3792e6, #2975c5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #57aded, #3792e6, #2975c5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #57aded 0%, #3792e6 50%, #2975c5 100%); /* Standard syntax */
+}
+
+
+
+
+body#blue stop.screen-gradient-0 {
+    stop-color: #75c5f3; /* Color l2 */
+}
+body#blue stop.screen-gradient-1 {
+    stop-color: #3792e6; /* Color 0 */
+}
+body#blue stop.screen-gradient-2 {
+    stop-color: #2975c5; /* Color d1 */
+}
+
+
+body#blue stop.light-gradient-0 {
+    stop-color: #c7f3fd; /* Color l5 */
+}
+body#blue stop.light-gradient-1 {
+    stop-color: #93d9f7; /* Color l3 */
+}
+body#blue stop.light-gradient-2 {
+    stop-color: #57aded; /* Color l1 */
+}
+
+
+body#blue stop.dark-gradient-0 {
+    stop-color: #2975c5; /* Color d1 */
+}
+body#blue stop.dark-gradient-1 {
+    stop-color: #124383; /* Color d3 */
+}
+body#blue stop.dark-gradient-2 {
+    stop-color: #0a2f65; /* Color d4 */
+}
+
+
+
+
+
+body#blue nav.menu li a:hover,
+body#blue nav.people-menu li a:hover {
+    background-color: #3792e6; /* Color 0 */
+    color: #fff;
+}
+
+body#blue nav.menu li.current div{
+    background-color: #3792e6; /* Color 0 */
+}
+
+body#blue nav.menu li.updated,
+body#blue nav.people-menu li.updated  {
+    background-color: #ade8fa; /* Color l4 */
+}
+
+body#blue nav.menu li.current div {    
+    background-color: #3792e6; /* Color 0 */
+    color: #fff;
+}
+
+    body#blue .profile-details a {
+        background-color: transparent;
+        color: #3792e6; /* Color 0 */
+    }
+
+        body#blue .profile-details a:hover {            
+            background-color: #3792e6; /* Color 0 */
+            color: #fff;
+        }
+
+body#blue footer .acknowledgement a:hover {
+    color: #3792e6; /* Color 0 */
+}
+
+
+
+
+
+/* INDIVIDUAL SHADES */
+
+body#blue .bg-color-0 { background-color: #3792e6; }
+body#blue .brdr-color-0 { border-color: #3792e6; }
+body#blue .color-0 { color: #3792e6; }
+
+
+body#blue .bg-color-l1 { background-color: #57aded; }
+body#blue .brdr-color-l1 { border-color: #57aded; }
+body#blue .color-l1 { color: #57aded; }
+
+body#blue .bg-color-l2 { background-color: #75c5f3; }
+body#blue .brdr-color-l2 { border-color: #75c5f3; }
+body#blue .color-l2 { color: #75c5f3; }
+
+body#blue .bg-color-l3 { background-color: #93d9f7; }
+body#blue .brdr-color-l3 { border-color: #93d9f7; }
+body#blue .color-l3 { color: #93d9f7; }
+
+body#blue .bg-color-l4 { background-color: #ade8fa; }
+body#blue .brdr-color-l4 { border-color: #ade8fa; }
+body#blue .color-l4 { color: #ade8fa; }
+
+body#blue .bg-color-l5 { background-color: #c7f3fd; }
+body#blue .brdr-color-l5 { border-color: #c7f3fd; }
+body#blue .color-l5 { color: #c7f3fd; }
+
+
+body#blue .bg-color-d1 { background-color: #2975c5; }
+body#blue .brdr-color-d1 { border-color: #2975c5; }
+body#blue .color-d1 { color: #2975c5; }
+
+body#blue .bg-color-d2 { background-color: #1c5aa4; }
+body#blue .brdr-color-d2 { border-color: #1c5aa4; }
+body#blue .color-d2 { color: #1c5aa4; }
+
+body#blue .bg-color-d3 { background-color: #124383; }
+body#blue .brdr-color-d3 { border-color: #124383; }
+body#blue .color-d3 { color: #124383; }
+
+body#blue .bg-color-d4 { background-color: #0a2f65; }
+body#blue .brdr-color-d4 { border-color: #0a2f65; }
+body#blue .color-d4 { color: #0a2f65; }
+
+body#blue .bg-color-d5 { background-color: #051e47; }
+body#blue .brdr-color-d5 { border-color: #051e47; }
+body#blue .color-d5 { color: #051e47; }

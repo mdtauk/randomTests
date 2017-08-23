@@ -1,0 +1,238 @@
+﻿/* #region LOGOS */
+
+#logo {
+    margin: 0;
+    display: inline-block;    
+    width: 19.375rem; /* 310px | 1 + 3.375 + 1 + 13 + 1 = 19.375rem */
+    height: 5rem; /* 80px | 1.1875 + 2.625 + 1.1875 = 5rem */
+    line-height: 5rem;
+
+    background-color: transparent;
+}
+
+
+
+    #logo a {
+        display: block;
+        padding-left: 1rem;
+        height: 100%;
+    }
+
+
+
+    #logo a:hover {
+        cursor: pointer;
+
+        background-color: #111;
+    }
+
+
+
+    .logo-symbol {
+        height: 2.625rem; /* 42px */
+        width: 3.375em; /* 54px */
+        display: inline-block;
+        margin-right: 1rem;
+        margin-top: 0.8125rem; /* 13px */
+    }
+
+
+
+    .logo-text {
+        height: 2.625rem; /* 42px */
+        width: 13em; /* 208px */
+        display: inline-block;
+    }
+
+
+
+    #logo-fallback {
+        height: 2.625rem; /* 42px */
+        display: none;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     SPECIAL CASE FOR THE LOGO
+    ***     min_                    |   max_    >335px  /  20.9375em
+    ***
+*/
+@media (min-width: 0) and (max-width: 20.9375em) {
+
+    /* #region LOGOS */
+    
+    #logo {
+        width: 11.75rem; /* 188px | 0.75 + 10.25 + 0.75 = 11.75rem */
+        height: 4rem; /* 64px | 1 + 2 + 1 = 4rem */
+        line-height: 4rem;
+    }
+    
+    
+    
+    .logo-symbol {
+        display: none;        
+    }
+
+
+
+    .logo-text {
+        height: 2rem; /* 32px */
+        width: 10.25em; /* 164px */
+        margin-top: 0.625rem;
+    }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 20.9375em) and (max-width: 33.9999em) {
+
+    /* #region LOGOS */
+    
+    #logo {
+        width: 15.1875rem; /* 243px | 0.75 + 2.6875 + 0.75 + 10.25 + 0.75 = 15.1875rem */
+        height: 4rem; /* 64px | 1 + 2 + 1 = 4rem */
+        line-height: 4rem;
+    }
+
+
+    .logo-symbol {
+        height: 2rem; /* 32px */
+        width: 2.6875em; /* 43px */
+        margin-right: 0.5rem;
+        margin-top: 0.625rem;
+    }
+
+
+    .logo-text {
+        height: 2rem; /* 32px */
+        width: 10.25em; /* 164px */
+    }
+
+    /* #endregion */
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    /* #region LOGOS */
+    
+    #logo {
+        width: 23.4375rem; /* 375px | 1.25 + 4.0625 + 1.25 + 15.625em + 1.25 = 23.4375rem */
+        height: 6rem; /* 96px | 1.4375 + 3.125 + 1.4375 = 6rem */
+        line-height: 6rem;
+    }
+
+
+    .logo-symbol {
+        height: 3.125rem; /* 50px */
+        width: 4.0625em; /* 65px */
+        margin-right: 1.25rem;
+        margin-top: 1rem;
+    }
+
+
+    .logo-text {
+        height: 3.125rem; /* 50px */
+        width: 15.625em; /* 250px */
+    }
+
+    /* #endregion */
+
+}

@@ -1,0 +1,154 @@
+﻿/*
+    *
+    * MAIN SITE LIME COLOURS *
+    *
+*/
+
+/*
+    * Color l5  #f8faad
+    * Color l4  #eef48c
+    * Color l3  #e2eb6a
+    * Color l2  #d2e048
+    * Color l1  #bdd325
+    *
+    * Color 0   #a6c303
+    *
+    * Color d1  #88a403
+    * Color d2  #6c8501
+    * Color d3  #526901
+    * Color d4  #3c4e00
+    * Color d5  #283600
+*/
+
+body#lime .gradient {
+    /* gradient values Color l1 - Color d1 */
+    background: -webkit-linear-gradient(left, #bdd325, #a6c303, #88a403); /* For Safari */
+    background: -o-linear-gradient(right, #bdd325, #a6c303, #88a403); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #bdd325, #a6c303, #88a403); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #bdd325 0%, #a6c303 50%, #88a403 100%); /* Standard syntax */
+}
+
+
+
+
+body#lime stop.screen-gradient-0 {
+    stop-color: #d2e048; /* Color l2 */
+}
+body#lime stop.screen-gradient-1 {
+    stop-color: #a6c303; /* Color 0 */
+}
+body#lime stop.screen-gradient-2 {
+    stop-color: #88a403; /* Color d1 */
+}
+
+
+body#lime stop.light-gradient-0 {
+    stop-color: #f8faad; /* Color l5 */
+}
+body#lime stop.light-gradient-1 {
+    stop-color: #e2eb6a; /* Color l3 */
+}
+body#lime stop.light-gradient-2 {
+    stop-color: #bdd325; /* Color l1 */
+}
+
+
+body#lime stop.dark-gradient-0 {
+    stop-color: #88a403; /* Color d1 */
+}
+body#lime stop.dark-gradient-1 {
+    stop-color: #526901; /* Color d3 */
+}
+body#lime stop.dark-gradient-2 {
+    stop-color: #3c4e00; /* Color d4 */
+}
+
+
+
+
+
+body#lime nav.menu li a:hover,
+body#lime nav.people-menu li a:hover {
+    background-color: #a6c303; /* Color 0 */
+    color: #fff;
+}
+
+body#lime nav.menu li.current div {
+    background-color: #a6c303; /* Color 0 */
+}
+
+body#lime nav.menu li.updated,
+body#lime nav.people-menu li.updated  {
+    background-color: #eef48c; /* Color l4 */
+}
+
+body#lime nav.menu li.current div {
+    background-color: #a6c303; /* Color 0 */
+    color: #fff;
+}
+
+    body#lime .profile-details a {
+        background-color: transparent;
+        color: #a6c303; /* Color 0 */
+    }
+
+        body#lime .profile-details a:hover {            
+            background-color: #a6c303; /* Color 0 */
+            color: #fff;
+        }
+
+body#lime footer .acknowledgement a:hover {
+    color: #a6c303; /* Color 0 */
+}
+
+
+
+
+
+/* INDIVIDUAL SHADES */
+
+body#lime .bg-color-0 { background-color: #a6c303; }
+body#lime .brdr-color-0 { border-color: #a6c303; }
+body#lime .color-0 { color: #a6c303; }
+
+
+body#lime .bg-color-l1 { background-color: #bdd325; }
+body#lime .brdr-color-l1 { border-color: #bdd325; }
+body#lime .color-l1 { color: #bdd325; }
+
+body#lime .bg-color-l2 { background-color: #d2e048; }
+body#lime .brdr-color-l2 { border-color: #d2e048; }
+body#lime .color-l2 { color: #d2e048; }
+
+body#lime .bg-color-l3 { background-color: #e2eb6a; }
+body#lime .brdr-color-l3 { border-color: #e2eb6a; }
+body#lime .color-l3 { color: #e2eb6a; }
+
+body#lime .bg-color-l4 { background-color: #eef48c; }
+body#lime .brdr-color-l4 { border-color: #eef48c; }
+body#lime .color-l4 { color: #eef48c; }
+
+body#lime .bg-color-l5 { background-color: #f8faad; }
+body#lime .brdr-color-l5 { border-color: #f8faad; }
+body#lime .color-l5 { color: #f8faad; }
+
+
+body#lime .bg-color-d1 { background-color: #88a403; }
+body#lime .brdr-color-d1 { border-color: #88a403; }
+body#lime .color-d1 { color: #88a403; }
+
+body#lime .bg-color-d2 { background-color: #6c8501; }
+body#lime .brdr-color-d2 { border-color: #6c8501; }
+body#lime .color-d2 { color: #6c8501; }
+
+body#lime .bg-color-d3 { background-color: #526901; }
+body#lime .brdr-color-d3 { border-color: #526901; }
+body#lime .color-d3 { color: #526901; }
+
+body#lime .bg-color-d4 { background-color: #3c4e00; }
+body#lime .brdr-color-d4 { border-color: #3c4e00; }
+body#lime .color-d4 { color: #3c4e00; }
+
+body#lime .bg-color-d5 { background-color: #283600; }
+body#lime .brdr-color-d5 { border-color: #283600; }
+body#lime .color-d5 { color: #283600; }

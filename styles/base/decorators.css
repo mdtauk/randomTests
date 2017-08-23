@@ -1,0 +1,45 @@
+﻿/* #region BOX SHADOWS */
+/* box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
+/* 0.0625rem = 1px */
+/* 0.125rem  = 2px */
+
+.shadow-dark {    
+       -moz-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+            box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+}
+
+.shadow-mid {
+       -moz-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.25);
+            box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.25);
+}
+
+.shadow-light {
+       -moz-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.15);
+            box-shadow: 0px 0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.15);
+}
+
+.top-shadow {
+       -moz-box-shadow: 0px -0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px -0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+            box-shadow: 0px -0.125rem 0.125rem -0.0625rem rgba(0,0,0,0.35);
+}
+
+/* #endregion */
+
+
+
+
+
+/* #region TEXT SHADOWS */
+/* text-shadow: h-shadow v-shadow blur color|none|initial|inherit; */
+
+.text-shadow {
+       -moz-text-shadow: 0px 0.125rem 0.125rem rgba(0,0,0,0.25);
+    -webkit-text-shadow: 0px 0.125rem 0.125rem rgba(0,0,0,0.25);
+            text-shadow: 0px 0.125rem 0.125rem rgba(0,0,0,0.25);
+}
+
+/* #endregion */

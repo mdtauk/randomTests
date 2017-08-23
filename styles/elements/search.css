@@ -1,0 +1,284 @@
+﻿#search-box {
+    width: 20rem;
+    position: static;
+    z-index: 8700;
+    display: block;
+    padding: 1rem;
+    float: right;
+    clear: none;
+    right: 0;
+}
+
+    #search-box .container {
+        width: auto;
+    }
+
+
+
+.search-textbox {    
+    clear: none;
+    display: inline-block;
+    width: 16.5rem;    
+}
+
+
+
+
+
+
+/* #region SEARCH TEXT BOX */
+
+#search-box input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    height: 2.25rem; /* 36px */
+    border: none;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: none;
+    outline: none;
+    border-left-style: none;
+    vertical-align: text-bottom;
+    float: left;
+    margin-right: 3.5rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+
+    font-size: 1rem;
+    line-height: 2.25rem; /* Same as textbox height */
+
+    background-color: #ccc;
+}
+
+
+
+#search-box input[type="text"] {
+    width: 100%;   
+}
+
+
+
+    #search-box input[type="text"]:focus,
+    #search-bar input[type="text"]:focus {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-border-radius: 0px;
+        border: none;
+
+        background-color: #fff;
+    }
+
+
+
+    #search-box input[type="text"]::-webkit-input-placeholder,
+    #search-bar input[type="text"]::-webkit-input-placeholder {
+        color: #555;
+    }
+
+
+ 
+    #search-box input[type="text"]:-moz-placeholder,
+    #search-bar input[type="text"]:-moz-placeholder {
+        color: #555;
+    }
+
+
+ 
+    #search-box input[type="text"]::-moz-placeholder,
+    #search-bar input[type="text"]::-moz-placeholder {
+        color: #555;
+    }
+
+
+ 
+    #search-box input[type="text"]:-ms-input-placeholder,
+    #search-bar input[type="text"]:-ms-input-placeholder {
+        color: #555;
+    }
+
+
+
+    #search-box input[type="text"]:focus:invalid,
+    #search-bar input[type="text"]:focus:invalid {
+        border-left-style: solid;
+        border-left-width: 0.5rem;
+
+        border-left-color: salmon;
+        padding-left: 0.5rem;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/* #region SEARCH BUTTON */
+
+button.search-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border: none;
+    height: 2.25rem; /* 36px */
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    vertical-align: text-bottom;
+    display: inline-block;
+
+    font-size: 1rem;
+    line-height: 2.25rem; /* Same as button height */
+
+    color: #000;
+    background-color: salmon;
+}
+
+
+
+button.search-button {
+    width: 3.5rem;
+    display: inline-block;
+}
+
+
+
+    button.search-button:hover {
+        background-color: cyan;
+    }
+
+/* #endregion */
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    #search-box {
+        float: none;
+        clear: both;
+        width: auto;
+        margin: 0;
+        display: block;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    #search-box {
+        float: none;
+        clear: both;
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    #search-box {
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    #search-box {
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    #search-box {        
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    #search-box {
+    }
+
+}

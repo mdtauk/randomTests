@@ -1,0 +1,96 @@
+﻿@import url('palettes/1-orange.css');
+@import url('palettes/2-gold.css');
+@import url('palettes/3-lime.css');
+@import url('palettes/4-green.css');
+@import url('palettes/5-teal.css');
+@import url('palettes/6-blue.css');
+@import url('palettes/7-indigo.css');
+@import url('palettes/8-purple.css');
+@import url('palettes/9-pink.css');
+
+
+
+
+
+
+path#logo_text { fill: #ddd; }
+
+#logo:hover path#logo_text { fill: #fff; }
+
+
+
+
+
+
+/* #region BACKGROUND COLOURS */
+
+.bg-lightest { background-color: #fff; }
+
+
+
+.bg-light-1 { background-color: #eee; }
+
+.bg-light-2 { background-color: #ddd; }
+
+.bg-light-3 { background-color: #ccc; }
+
+
+
+.bg-medium-1 { background-color: #999; }
+
+.bg-medium-2 { background-color: #888; }
+
+.bg-medium-3 { background-color: #777; }
+
+
+
+.bg-dark-1 { background-color: #555; }
+
+.bg-dark-2 { background-color: #444; }
+
+.bg-dark-3 { background-color: #333; }
+
+
+
+.bg-darkest { background-color: #111; }
+
+/* #endregion */
+
+
+
+
+
+
+/* #region TEXT COLOURS */
+
+.txt-lightest { color: #fff; }
+
+
+
+.txt-light-1 { color: #eee; }
+
+.txt-light-2 { color: #ddd; }
+
+.txt-light-3 { color: #ccc; }
+
+
+
+.txt-medium-1 { color: #999; }
+
+.txt-medium-2 { color: #888; }
+
+.txt-medium-3 { color: #777; }
+
+
+
+.txt-dark-1 { color: #555; }
+
+.txt-dark-2 { color: #444; }
+
+.txt-dark-3 { color: #333; }
+
+
+
+.txt-darkest { color: #111; }
+
+/* #endregion */

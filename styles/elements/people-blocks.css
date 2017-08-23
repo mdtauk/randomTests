@@ -1,0 +1,609 @@
+﻿
+
+
+.profile-top {
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    text-align: left;
+}
+
+
+
+.profile-top-1 {
+    width: 18rem; /* 288px */
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+    clear: none;
+    display: inline-block;
+}
+
+
+
+.profile-image {
+    width: 18rem; /* 288px */
+    margin-bottom: 1rem;
+}
+
+
+.profile-thumb-image {
+    width: 5.5rem; /* 88px */
+    margin-bottom: 1rem;
+}
+
+
+.profile-small-image {
+    width: 11.75rem; /* 188px */
+    margin-right: 1rem;
+}
+
+
+.profile-name {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.profile-verified {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+
+
+a.profile-website {
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+
+
+.profile-top-2 {
+    padding-left: 1em;
+    padding-right: 1rem;
+    float: right;
+    clear: none;
+}
+
+
+
+    .profile-social ul {
+        width: auto;
+        display: block;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+    }
+    
+    
+    
+    .profile-social li {
+        vertical-align: top;
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+
+        .profile-social li a {            
+            font-size: 5rem;
+            display: block;
+            clear: both;
+            line-height: 5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+
+            text-decoration: none;
+        }
+
+
+
+li.profile-twitter a {
+    color: #4099FF; /* Twitter Blue */
+}
+
+
+
+li.profile-youtube a {
+    color: #e52d27; /* YouTube Red */
+}
+
+
+
+li.profile-facebook a {
+    color: #3B5998; /* Facebook Blue */
+}
+
+
+
+li.profile-linkedin a {
+    color: #4875B4; /* Linked In Blue */
+}
+
+
+
+        .profile-social li a:hover {            
+            background-color: #eee;
+        }
+
+
+
+        .profile-social li a span {            
+            font-size: 1rem;
+            line-height: 1rem;
+            margin-top: 1rem;
+            display: block;
+            clear: both;
+        }
+
+
+
+.profile-summary {
+    margin: 0 1rem;
+
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;     
+}
+    
+    
+    
+    .profile-summary h4, .profile-summary p {        
+        line-height: 1.5em;
+        margin-bottom: 1rem;
+    }
+
+
+
+        .profile-summary p.profile-credit {
+            font-weight: 500;
+        }
+
+
+
+.profile-career {
+    display: block;
+    margin-bottom: 2em;
+    width: auto;
+}
+
+    .profile-career .broadcaster {
+        display: inline-block;
+        font-weight: 500;
+        width: 20%;
+    }
+
+    .profile-career .description {
+        display: inline-block;
+        width: 79%;
+    }
+
+
+
+.profile-btm {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+.people-update {
+    background-color: #fff;
+    text-align: left;
+    min-height: 11.75rem; /* 188px */
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+    .people-update .profile-small-image {
+        float: left;
+    }
+
+    .people-update p {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+    }
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    .profile-top {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    
+    
+    .profile-top-1 {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+
+
+    .profile-top-2 {
+        width: auto;
+        margin: 0 auto;
+        clear: both;
+        display: block;
+        float: none;
+    }
+
+
+
+    .profile-social ul {
+        width: 100%;
+        display: block;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    
+    
+    
+    .profile-social li {
+        width: 100%;
+        display: block;
+        text-align: left;
+        margin: 0;
+    }
+
+
+
+        .profile-social li a {            
+            font-size: 3rem;
+            display: block;
+            clear: both;
+            line-height: 3rem;
+            padding: 1rem;
+            margin-bottom: 0;
+
+            text-decoration: none;
+        }
+
+
+
+            .profile-social li a:hover {            
+                    background-color: #eee;
+                }
+
+
+
+        .profile-social li a span {
+            vertical-align: top;            
+            font-size: 1rem;
+            line-height: 3rem;
+            margin-left: 1rem;
+            display: inline;
+            clear: none;
+        }
+
+
+
+     .people-update {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    .profile-career .broadcaster {
+        display: block;
+        width: auto;
+    }
+
+    .profile-career .description {
+        display: block;
+        width: auto;
+    }
+
+
+
+    .profile-small-image {
+        width: 5.5rem; /* 88px */
+        margin-right: 1rem;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    .profile-top {
+        width: auto;
+    }
+
+
+
+    .profile-top-1 {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+
+
+    .profile-image {
+        width: 12rem;
+        margin-bottom: 0;
+        float: left;
+        clear: none;
+    }
+
+
+
+    .profile-details {
+        float: left;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+
+
+    .profile-top-2 {
+        width: auto;
+        margin-top: 0;
+        clear: both;
+        display: block;
+        float: none;
+    }
+
+
+
+    .profile-social ul {
+        width: auto;
+        display: block;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+
+
+    .profile-social li a span {
+        display: none;
+    }
+
+
+
+    .people-update {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    .profile-career .broadcaster {
+        display: block;
+        width: auto;
+    }
+
+    .profile-career .description {
+        display: block;
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    .profile-top {
+        width: auto;
+    }
+
+
+
+    .profile-top-1 {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+
+
+    .profile-image {
+        width: 12rem;
+        margin-bottom: 0;
+        float: left;
+        clear: none;
+    }
+
+
+
+    .profile-details {
+        float: left;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+
+
+    .profile-top-2 {
+        width: auto;
+        margin-top: 0;
+        clear: both;
+        display: block;
+        float: none;
+    }
+
+
+
+    .profile-social ul {
+        width: auto;
+        display: block;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    .profile-top {
+        width: 61em; /* 976px */
+    }
+
+
+
+    .profile-top-2 {
+        width: 40rem; /* 640px | 976 - 16 - 288 - 16 - 16 */
+    }
+
+
+
+    .profile-summary {
+        margin-left: 2em;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    .profile-top {
+        width: 75rem; /* 1200px */
+    }
+
+
+
+    .profile-top-2 {
+        width: 54rem; /* 864px | 1200 - 16 - 288 - 16 - 16 */
+    }
+
+
+
+    .profile-summary {
+        margin-left: 2em;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    .profile-top {
+        width: 121em; /* 1936px */
+    }
+
+
+
+    .profile-name {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    .profile-verified {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    a.profile-website {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+        .profile-social li a span {            
+            font-size: 1.25rem;
+            line-height: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+
+
+    .profile-top-2 {
+        width: 100rem; /* 1600px | 1936 - 16 - 288 - 16 - 16 */
+    }
+
+
+
+    .profile-summary {
+        margin-left: 3em;
+    }
+
+}

@@ -1,0 +1,378 @@
+﻿figure.fig-16-9,
+figure.fig-4-3 {    
+    clear: both;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem; /* 48px */
+    padding: 0;
+
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+    figure.fig-16-9 ul,
+    figure.fig-4-3 ul {    
+        display: inline-block;
+        margin: 0;
+        padding: 0.5em;
+
+        background-color: #fff;
+    }
+
+
+
+        figure.fig-16-9 ul li,
+        figure.fig-4-3 ul li {
+            display: inline-block;
+            float: none;
+            margin: 0;
+        }
+
+
+
+figcaption {
+    display: block;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    line-height: 1.25em;
+
+    background-color: #fff;
+}
+
+
+
+    figcaption p {
+        font-size: 1rem; /* 16px font */
+        line-height: 1.5rem; /* 24px line-height */
+    }
+
+
+
+.figure-updated {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    clear: both;
+    
+    background-color: olive;
+    color: #fff;
+}
+
+
+
+    .figure-updated p {
+        font-size: 0.875rem; /* 14px font */
+        line-height: 1rem;   /* 16px line-height */
+    }
+
+
+
+        .figure-updated p span {
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     PHONE SIZES
+    ***     min_                   |   max_   >544px  / 33.9999em
+    ***
+*/
+@media (min-width: 0) and (max-width: 33.9999em) {
+
+    figure.fig-16-9,
+    figure.fig-4-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    
+    figure.fig-16-9 ul,
+    figure.fig-4-3 ul {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-bottom: 0;
+    }
+
+
+
+    img.image-16-9,
+    img.image-4-3 {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+
+
+    figcaption {
+        float: none;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 1em;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     S TABLET SIZES
+    ***     min_     544px / 34em   |   max_   >784px  / 48.9999em
+    ***
+*/
+@media (min-width: 33.999em) and (max-width: 48.9999em) {
+
+    figure.fig-16-9 {
+        width: 31em; /* 496px | 16 + 464 + 16 */
+    }
+
+
+
+    figure.fig-4-3 {
+        width: 26.3125em; /* 421px | 16 + 389 + 16 */
+    }
+   
+
+
+    figure.fig-16-9 ul,
+    figure.fig-4-3 ul {
+        width: auto;
+    }
+
+
+
+    figcaption {
+        float: none;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 1em;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L TABLET SIZES
+    ***     min_     784px / 49em   |   max_  >1024px  / 63.9999em
+    ***
+*/
+@media (min-width: 49em) and (max-width: 63.9999em) {
+
+    figure.fig-16-9 {
+        width: 45em; /* 720px | 16 + 464 + 16 + 224 */
+    }
+
+
+
+    figure.fig-16-9 ul {
+        width: 30em; /* 480px | 8 + 464 + 8 */
+        display: inline-block;        
+    }
+
+
+    
+    figure.fig-4-3 {
+        width: 40.3125em; /* 645px | 16 + 389 + 16 + 224 */
+    }
+
+
+
+    figure.fig-4-3 ul {
+        width: 25.3125em; /* 405px | 8 + 389 + 8 */
+        display: inline-block;
+    }
+
+
+
+    figcaption {
+        float: right;
+        width: 14em; /* 224px */
+        padding-top: 1em;
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     DESKTOP SIZES
+    ***     min_    1024px / 64em   |   max_  >1264px  / 78.9999em
+    ***
+*/
+@media (min-width: 64em) and (max-width: 78.9999em) {
+
+    figure.fig-16-9 {
+        width: 61em; /* 976px | 16 + 464 + 16 + 464 + 16 */
+    }
+
+
+
+    figure.fig-4-3 {
+        width: 51.625em; /* 826px | 16 + 389 + 16 + 389 + 16 */
+    }
+
+
+
+    figure.fig-16-9 ul,
+    figure.fig-4-3 ul {
+        width: auto;
+    }
+
+
+    
+    figcaption {
+        float: none;
+        width: 100%;        
+        padding-top: 0;
+        padding-left: 1em;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     L DESKTOP SIZES
+    ***     min_    1264px / 79em   |   max_  >1984px / 123.9999em
+    ***
+*/
+@media (min-width: 79em) and (max-width: 123.9999em) {
+
+    figure.fig-16-9 {
+        width: 75em; /* 1200px | 16 + 464 + 16 + 464 + 16 + 224 */
+    }
+    
+
+
+    figure.fig-16-9 ul {
+        width: 60em; /* 960px | 8 + 464 + 8 + 8 + 464 + 8 */
+        display: inline-block;
+    }
+
+
+
+    figure.fig-4-3 {
+        width: 65.625em; /* 1050px | 16 + 389 + 16 + 389 + 16 + 224 */
+    }
+
+
+
+    figure.fig-4-3 ul {
+        width: 50.625em; /* 810px | 8 + 389 + 8 + 8 + 389 + 8 */
+        display: inline-block;
+    }
+
+
+
+    figcaption {
+        float: right;
+        width: 14em; /* 224px */
+        padding-top: 1em;
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+
+
+/*
+    ***
+    ***     MEDIA QUERY
+    ***     XL DESKTOP SIZES
+    ***     min_    1984px / 124em 
+    ***
+*/
+@media (min-width: 124em) and (max-width: 9999999em) {
+
+    figure.fig-16-9 {
+        width: 121em; /* 1936px | 16 + 464 + 16 + 464 + 16 + 464 + 16 + 464 + 16 */
+    }
+
+
+
+    figure.fig-4-3 {
+        width: 102.25em; /* 1636px | 16 + 389 + 16 + 389 + 16 + 389 + 16 + 389 + 16 */
+    }
+
+
+
+    figure.fig-16-9 ul,
+    figure.fig-4-3 ul {
+        width: auto;
+    }
+
+
+
+    figcaption {
+        float: none;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 1em;
+    }
+
+
+
+        figcaption p {
+            font-size: 1.125em;    /* 18px font */
+            line-height: 1.3333em; /* 24px line-height */
+        }
+
+
+
+    .figure-updated p {
+        font-size: 1rem;       /* 16px font */
+        line-height: 1.5rem;   /* 24px line-height */
+    }
+
+}
