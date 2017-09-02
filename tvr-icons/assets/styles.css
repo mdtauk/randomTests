@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "TVR-ico";
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/tvr-icons-2017.woff') format('woff');
+}
+
+
+html{
+    text-align: center;
+    font-size: 16px;
+    background-color: #262626;
+    color: #f2f2f2;
+}
+
+body {
+    
+}
+
+div.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+div.logo {
+    margin-left: 0;
+}
+
+ul.icon-list {
+    list-style: none;
+}
+
+div.icon-16 {
+    font-family: TVR-ico;
+    font-size: 16px;
+}
+div.icon-24 {
+    font-family: TVR-ico;
+    font-size: 24px;
+}
+div.icon-48 {
+    font-family: TVR-ico;
+    font-size: 48px;
+}
+div.icon-96 {
+    font-family: TVR-ico;
+    font-size: 96px;
+}
+
+.ico-add-gallery-16:before {
+    content: "\E024"
+
+}

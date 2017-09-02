@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <title></title>
+
+        <link type="text/css" href="styles/styles.css" rel="stylesheet" media="screen" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="scripts/modernizr.js"></script>
+        <script type="text/javascript" src="scripts/respond.js"></script>
+        <script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="scripts\/1.7.2.jquery.min.js"><\/script>')</script>
+
+
+        <!--
+            --
+            --  SCRIPT TO CONTROL VISIBILITY AND STATE OF ELEMENTS WHICH
+            --  ARE CONDITIONAL TO RESPONSIVE SIZING
+            --
+        -->
+        <script>
+            $(document).ready(function () {                
+                $("#top-alert .container .close").click(function () {
+                    $("#top-alert").slideToggle("fast");
+                });
+
+
+                $(".disclose-container").hide();
+
+                $(".disclose-button a").click(function () {
+                    $(".disclose-container").slideToggle("fast");
+                });
+
+                
+                $("#search-disclose a").click(function () {
+                    $("#search-box").slideToggle("fast");
+                    $("#search-disclose a").toggleClass("toggled")
+                });
+                
+                $("#nav-disclose a").click(function () {
+                    $("#nav-bar").slideToggle("fast");
+                    $("#nav-disclose a").toggleClass("toggled")
+                });
+
+            });
+        </script>
+
+
+        <!--
+            --
+            --  SCRIPT TO CORRECT RESPONSIZE SCALING ON WINDOWS PHONE AFTER ADDING SUPPORT FOR
+            --  WINDOWS METRO RESPONSIVE VIEWPORTS
+            --
+        -->
+        <script type="text/javascript">
+            //<![CDATA[
+            (function () {
+                if (navigator.userAgent.match(/IEMobile\/10\.0/i)) {
+                    var a = document.createElement("style");
+                    a.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+                    document.head.appendChild(a);
+                }
+            })();
+            //]]>
+        </script>
+
+
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <body id="indigo" class="txt-darkest">
+
+
+
+        <header>
+            <div id="alert-bar" class="bg-color-0 gradient shadow-dark">
+                <div class="container"><!-- div#alert-bar .container -->
+
+                </div><!-- .alert-bar-container -->
+            </div><!-- #alert-bar -->
+
+
+
+            <div id="header-bar" class="shadow-dark">
+
+                <div class="container"><!-- div#header-bar .container -->
+                    
+                    <div id="logo"><!--
+
+                     --><a href="#"><!--
+
+                         --><div class="logo-symbol">
+                                <svg id="tvr2014-logo-symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" width="100%" viewBox="0 0 34.715 27" preserveAspectRatio="xMinYMin meet">
+
+                                    <g id="svg_LogoSymbol-scroll">
+
+                                        <radialGradient id="ScreenGradient" cx="7.2964" cy="6.5449" r="26.6316" gradientUnits="userSpaceOnUse">
+                                            <stop class="screen-gradient-0" offset="0" />
+                                            <stop class="screen-gradient-1" offset="0.75" />
+                                            <stop class="screen-gradient-2" offset="1" />
+                                        </radialGradient>
+                                        <path id="svg_Logo-Screen-scroll" fill="url(#ScreenGradient)" d="M34.715,8.659c0-1.595-1.053-2.994-2.65-3.449c-4.317-1.103-9.365-2.314-14.434-3.301l-3.494,1.534 l-1.542-2.431C9.563,0.528,6.61,0.169,3.895,0.007C2.824-0.056,1.88,0.283,1.118,1.014c-0.771,0.73-1.144,1.648-1.117,2.7 c0.209,6.852,1.017,13.812,2.75,20.565c0.426,1.666,1.933,2.78,3.684,2.718c2.726-0.091,5.57-0.332,8.406-0.704l0.497-0.608 l1.68,0.297c1.453-0.225,2.894-0.482,4.309-0.77l0.758-0.803l1.655,0.276c1.877-0.439,3.686-0.93,5.384-1.467 c1.053-0.339,1.834-1.021,2.251-2.022c0.487-1.174,1.02-2.67,1.514-4.239L32.381,13.5l1.719-0.915 C34.475,10.986,34.715,9.573,34.715,8.659z" />
+
+
+                                        <radialGradient id="LightGradient" cx="10.4292" cy="11.0166" r="16.3395" fx="6.6706" fy="2.8781" gradientTransform="matrix(0.947 -0.3213 0.3361 0.9907 -3.1497 3.4528)" gradientUnits="userSpaceOnUse">
+                                            <stop class="light-gradient-0" offset="0" />
+                                            <stop class="light-gradient-1" offset="0.7" />
+                                            <stop class="light-gradient-2" offset="1" />
+                                        </radialGradient>
+                                        <path id="svg_Logo-LightWave-scroll" fill="url(#LightGradient)" d="M15.004,23.004c-0.864-1.544-1.558-3.23-2.016-5.021c-0.476-1.858-0.665-3.69-0.583-5.442 c0.085-1.851,0.475-3.642,1.158-5.28c0.733-1.76,1.814-3.362,3.235-4.676c0.274-0.252,0.535-0.445,0.833-0.676 c-1.696-0.318-3.36-0.644-5.035-0.896c-0.687,1.138-1.254,2.334-1.682,3.579c-0.724,2.106-1.091,4.357-1.105,6.642 c-0.013,2.137,0.282,4.346,0.899,6.561c0.591,2.121,1.439,4.11,2.471,5.927c0.506,0.89,1.062,1.747,1.663,2.572 c0.728-0.096,1.453-0.199,2.177-0.312C16.271,25.046,15.592,24.055,15.004,23.004z" />
+
+
+                                        <radialGradient id="DarkGradient" cx="17.3286" cy="11.6592" r="12.9536" fx="29.0018" fy="17.2745" gradientTransform="matrix(-0.9851 -0.1721 0.1754 -1.004 32.3538 26.3467)" gradientUnits="userSpaceOnUse">
+                                            <stop class="dark-gradient-0" offset="0" />
+                                            <stop class="dark-gradient-1" offset="0.75" />
+                                            <stop class="dark-gradient-2" offset="1" />
+                                        </radialGradient>
+                                        <path id="svg_Logo-DarkWave-scroll" fill="url(#DarkGradient)" d="M22.554,22.963c-0.393-0.74-0.679-1.541-0.822-2.372c-0.146-0.846-0.133-1.651,0.021-2.39 c0.158-0.759,0.464-1.449,0.9-2.038c0.45-0.606,1.039-1.108,1.747-1.46c0.731-0.363,1.588-0.566,2.544-0.562 c0.985,0.004,1.972,0.229,2.908,0.64c0.955,0.417,1.845,1.021,2.616,1.766c0.148,0.145,0.282,0.257,0.421,0.41 c0.465-1.479,0.891-2.976,1.211-4.372c-0.934-0.689-1.937-1.258-2.991-1.672c-1.504-0.591-3.072-0.866-4.612-0.777 c-1.469,0.084-2.762,0.493-3.84,1.136c-1.027,0.613-1.861,1.438-2.478,2.404c-0.589,0.923-0.985,1.981-1.164,3.117 c-0.174,1.095-0.149,2.274,0.094,3.497c0.239,1.192,0.667,2.334,1.236,3.389c0.288,0.532,0.621,1.042,0.981,1.533 c0.821-0.167,1.613-0.339,2.413-0.526C23.274,24.157,22.881,23.58,22.554,22.963z" />
+                                    </g>
+
+                                    <rect width="34.715" height="42" fill-opacity="0" />
+
+                                </svg>
+                            </div><!-- .logo-symbol --><!--
+
+
+
+                            --><div class="logo-text">
+                                <svg id="tvr2014-logo-text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" width="100%" viewBox="0 0 207.166 42" preserveAspectRatio="xMinYMin meet">
+
+                                    <path id="logo_text" d="M149.807,23.5c0-6.308-3.385-9.859-8.898-9.859h-3.092c-5.514,0-8.896,3.552-8.896,9.859 v4.263c0,6.308,3.383,9.857,8.896,9.857h3.092c5.514,0,8.898-3.55,8.898-9.857V23.5z M174.372,23.5c0-6.308-3.385-9.859-8.899-9.859 h-3.092c-5.516,0-8.896,3.552-8.896,9.859v4.263c0,6.308,3.381,9.857,8.896,9.857h3.092c5.515,0,8.899-3.55,8.899-9.857V23.5z M178.13,36.075c0,0.583,0.461,1.044,1.045,1.044h3.134c0.584,0,1.044-0.461,1.044-1.044V19.991c0-0.668,0.585-1.252,1.253-1.252 h5.432v17.336c0,0.583,0.459,1.044,1.044,1.044h3.134c0.583,0,1.044-0.461,1.044-1.044V18.739h2.631 c2.758,0,4.053,2.087,4.053,5.222v12.114c0,0.583,0.459,1.044,1.046,1.044h3.133c0.584,0,1.045-0.461,1.045-1.044V24.001 c0-6.308-3.385-9.858-8.9-9.858H181.89c-1.921,0-3.76,1.839-3.76,3.761V36.075z M54.935,37.119c0.585,0,1.044-0.461,1.044-1.044 v-2.508c0-0.584-0.459-1.043-1.044-1.043h-7.019c-2.59,0-3.885-1.547-4.053-4.345h6.226c5.264,0,7.77-2.758,7.77-7.02 c0-4.052-2.506-7.018-7.77-7.018H47.54c-5.514,0-8.898,3.05-8.898,9.357v4.263c0,6.308,3.385,9.356,8.898,9.356H54.935z M29.661,36.075c0,0.583,0.459,1.044,1.044,1.044h3.133c0.585,0,1.045-0.461,1.045-1.044V24.001c0-6.308-3.385-9.858-8.898-9.858 h-5.097V6.415c0-0.585-0.46-1.045-1.044-1.045H16.71c-0.584,0-1.044,0.46-1.044,1.045v29.66c0,0.583,0.46,1.044,1.044,1.044h3.134 c0.584,0,1.044-0.461,1.044-1.044V18.739h4.721c2.757,0,4.053,2.087,4.053,5.222V36.075z M92.073,37.119h3.007 c0.585,0,1.296-0.417,1.589-0.919l6.015-10.402c0.293-0.501,0.502-1.378,0.502-1.963v-8.648c0-0.669-0.376-1.044-1.044-1.044h-3.134 c-0.669,0-1.044,0.375-1.044,1.044v7.979c0,0.584-0.251,1.462-0.501,1.964l-3.886,6.644l-3.885-6.644 c-0.251-0.502-0.502-1.38-0.502-1.964v-7.979c0-0.669-0.376-1.044-1.045-1.044h-3.133c-0.668,0-1.045,0.375-1.045,1.044v8.648 c0,0.585,0.21,1.462,0.502,1.963L90.485,36.2C90.778,36.702,91.488,37.119,92.073,37.119L92.073,37.119z M69.139,28.931 c0,4.848,3.174,8.188,7.227,8.188H80c0.584,0,1.044-0.461,1.044-1.044v-2.508c0-0.584-0.46-1.043-1.044-1.043h-2.841 c-1.712,0-2.799-1.462-2.799-3.552V18.739h4.805c0.584,0,1.044-0.459,1.044-1.046v-2.507c0-0.584-0.46-1.044-1.044-1.044H74.36 V9.965c0-0.585-0.46-1.043-1.044-1.043h-3.134c-0.584,0-1.044,0.458-1.044,1.043V28.931z M0,28.931c0,4.848,3.175,8.188,7.228,8.188 h3.635c0.584,0,1.044-0.461,1.044-1.044v-2.508c0-0.584-0.46-1.043-1.044-1.043H8.021c-1.712,0-2.798-1.462-2.798-3.552V18.739 h4.804c0.584,0,1.044-0.459,1.044-1.046v-2.507c0-0.584-0.46-1.044-1.044-1.044H5.222V9.965c0-0.585-0.46-1.043-1.045-1.043H1.044 C0.459,8.921,0,9.38,0,9.965V28.931z M114.465,36.075c0,0.583,0.459,1.044,1.044,1.044h3.134c0.584,0,1.044-0.461,1.044-1.044 V22.288c0-2.087,1.087-3.549,2.8-3.549h2.84c0.585,0,1.045-0.459,1.045-1.046v-2.507c0-0.584-0.46-1.044-1.045-1.044h-3.635 c-4.052,0-7.227,3.343-7.227,8.188V36.075z M140.533,18.446c2.756,0,4.051,2.088,4.051,5.222v3.926c0,3.134-1.295,5.223-4.051,5.223 h-2.34c-2.757,0-4.053-2.089-4.053-5.223v-3.926c0-3.134,1.296-5.222,4.053-5.222H140.533z M165.097,18.446 c2.758,0,4.053,2.088,4.053,5.222v3.926c0,3.134-1.295,5.223-4.053,5.223h-2.339c-2.758,0-4.053-2.089-4.053-5.223v-3.926 c0-3.134,1.295-5.222,4.053-5.222H165.097z M47.916,18.655h2.34c1.88,0,2.381,1.336,2.381,2.505c0,1.171-0.543,2.425-2.423,2.425 h-6.351C43.863,20.493,45.159,18.655,47.916,18.655z" />
+
+                                    <rect width="207.166" height="42" fill-opacity="0" />
+
+                                </svg>
+                            </div><!-- .logo-text --><!--
+                            
+
+
+                         --><h1 class="text-shadow">
+                                The TV Room
+                            </h1><!--
+
+                     --></a><!--
+
+                 --></div><!-- #logo -->
+
+
+
+                    <div id="logo-fallback">
+                        <a href="#"></a>
+                    </div><!-- #logo-fallback --><!--
+
+
+
+                 --><div id="nav-disclose"><!--
+                        --><a href="#">
+                            <i class="fa fa-bars fa-lg"></i>
+                        </a>
+                    </div><!-- #nav-disclose -->
+
+
+
+                    <div id="search-disclose"><!--
+                        --><a href="#">
+                            <i class="fa fa-search fa-lg"></i>
+                        </a>
+                    </div><!-- #search-disclose --><!--
+
+
+                 --><div id="search-box" class="cf">
+                        <div class="container"><!-- div#search-box .container -->
+                            <div class="search-textbox"><!--
+                            --><input type="text" placeholder="Search here..." required /><!--
+                            --></div><!--
+                            --><button class="search-button" type="submit"><i class="fa fa-search fa-lg"></i></button><!--
+                        --></div>
+                    </div><!-- #search-box --><!--
+
+
+             --></div><!-- .header-bar-container -->
+            </div><!-- #header-bar -->
+
+
+
+
+
+            <div id="nav-bar" class="shadow-dark">
+                <div class="container"><!-- div#nav-bar .container -->
+
+                    <nav id="top-nav" class="text-shadow txt-light-3">
+                        <ul class="primary"><!--
+                         --><li class="has-sub"><a href="#">Channel Branding</a>
+                                <ul class="secondary"><!--
+                                 --><li><a href="#">BBC UK</a></li><!--
+                                 --><li><a href="#">BBC International</a></li><!--
+                                 --><li><a href="#">ITV</a></li><!--
+                                 --><li><a href="#">Channel 4</a></li><!--
+                                 --><li><a href="#">Channel 5</a></li><!--
+                                 --><li><a href="#">Sky</a></li><!--
+                                 --><li><a href="#">UKTV</a></li><!--
+                                 --><li><a href="#">Discovery</a></li><!--
+                                 --><li><a href="#">MTV</a></li><!--
+                                 --><li><a href="#">Other UK Channels</a></li><!--
+                                 --><li><a href="#">Irish Channels</a></li><!--
+                             --></ul><!--
+                         --></li><!--
+
+                         --><li class="has-sub"><a href="#">People</a>
+                                <ul class="secondary"><!--
+                                 --><li><a href="#">Announcers</a></li><!--
+                                 --><li><a href="#">Presenters</a></li><!--
+                             --></ul><!--
+                         --></li><!--
+
+                         --><li><a href="#">Programmes</a></li><!--
+                         --><li><a href="#">News</a></li><!--
+                         --><li><a href="#">Features</a></li><!--
+                         --><li><a href="#">Promotions</a></li><!--
+                         --><li><a href="#">Buildings</a></li><!--
+                         --><li><a href="#">Listings</a></li><!--
+                         --><li class="has-sub"><a href="#">Surprise</a>
+                                <ul class="secondary"><!--
+                                 --><li><a href="#">Surprise 1</a></li><!--
+                                 --><li><a href="#">Surprise 2</a></li><!--
+                             --></ul><!--
+                         --></li><!--
+                     --></ul>
+                    </nav><!-- .top-nav -->
+
+                </div><!-- .container -->
+            </div><!-- #nav-bar -->
+
+
+
+
+
+
+            <div class="page-header-bar bg-color-0 gradient txt-lightest shadow-dark">
+                <div class="container cf"><!-- div.page-header-bar .container -->
+
+                    <h2 class="text-shadow">People</h2>
+
+                    <h3 class="text-shadow">A &ndash; C</h3>
+
+                    <div class="cf"></div>
+
+                </div><!-- .container -->
+            </div><!-- .page-header-bar -->
+
+        </header>
+
+        
+        
+
+
+        
+        <section id="menu">
+
+            <header class="section-header-bar bg-lightest shadow-mid">
+                <div class="container">
+                    <!-- header.section-header .container -->
+
+                    <div class="more-in-this-section">
+
+                        <div class="disclose-button">
+                            <a>More In This Section &nbsp; <i class="fa fa-chevron-down"></i></a>
+                        </div><!-- .disclose-button -->
+
+
+
+                        <div class="disclose-container cf">
+                            <nav class="menu category-menu">
+                                <ul class="cf">
+                                    <li class="caption">Alphabetical</li>
+
+                                    <li class="current">
+                                        <div>A - C</div>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">D - F</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">G - I</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">H - K</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">L - N</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">O - Q</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">R - T</a>
+                                    </li>
+
+                                    <li class="disabled">
+                                        <div>U - W</div>
+                                    </li>
+
+                                    <li class="disabled">
+                                        <div>X - Z</div>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+
+
+
+
+                            <nav class="menu level-menu">
+                                <ul class="cf">
+                                    <li class="caption">Broadcasters</li>
+
+                                    <li>
+                                        <a href="#">
+                                            BBC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            ITV
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Channel 4
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            S4C
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Channel 5
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Sky
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            UKTV
+                                        </a>
+                                    </li>
+                                    <li class="disabled">
+                                        <div>
+                                            Discovery
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            RTÉ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            TV Three
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            TG4
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+
+
+
+
+                            <nav class="menu level-menu-fixed">
+
+                                <h1>Level Menu Fixed</h1>
+
+                                <ul class="cf">
+                                    <li class="caption">Category</li>
+
+                                    <li>
+                                        <a href="#">Announcers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Business</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Children's TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Current Affairs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Entertainment</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sports</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Travel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Weather</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div><!-- .disclose-container -->
+
+                    </div><!-- more-in-this-section -->
+
+                </div><!-- .container -->
+            </header><!-- header.section-header -->
+
+
+
+            <div class="container"><!-- section#menu .container -->
+
+                <nav class="menu people-menu">
+
+                    <ul class="cf">
+                        <li class="caption">Alphabetical A</li>
+
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Christa Ackroyd</p>
+                            </a>
+                        </li>
+                        <li class="updated">
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Kaye Adams</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Kate Adie</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Asad Ahmad</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Tazeen Ahmad</p>
+                            </a>
+                        </li>
+                        <li class="disabled">
+                            <div>
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Samira Ahmed</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Jonathan Aitken</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Keith Akehurst</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">                                
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>George Alagiah</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Kay Alexander</p>                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Cathy Alexander</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Lucy Alexander</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Lesley Alexander</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Suzie Algie</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Matthew Amroliwala</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Andrew Anderson</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>John Andrew</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Ken Andrew</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Eamonn Andrews</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Gytha Andrews</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Richard Angwin</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Patrick Anthony</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="profile-thumb-image" src="content-imgs/profile-thumb.png" alt="" />
+                                <p>Trevor Appleton</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div><!-- .container -->
+        </section><!-- #menu -->
+        
+        
+        
+        
+        
+                
+        <footer class="acknowledgments bg-lightest top-shdow">
+            <div class="container"><!-- footer.acknowledgements .container -->
+                Acknowledgements go here
+            </div><!-- .container -->
+        </footer><!-- .acknowledgements -->
+
+
+
+
+
+
+        <footer id="copyrights" class="bg-dark-3 top-shdow">
+            <div class="container"><!-- footer#copyrights .container -->
+                Copyright here
+            </div><!-- .container -->
+        </footer><!-- #copyrights -->
+
+
+
+
+
+
+    </body><!-- #orange -->
+</html>
