@@ -57,9 +57,10 @@ h3.first {
 
 h4 {
     text-align: center;
-    margin-top: 24px;
-    color: #b3b3b3;
-    font-size: 14px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    color: #f2f2f2;
+    font-size: 12px;
     letter-spacing: 0.17em;
     text-transform: uppercase;
 }
@@ -67,7 +68,7 @@ h4 {
 div.icon-row {
     text-align: center;
     display: block;
-    width: 600px;
+    width: 560px;
     margin: auto;
     clear: both;
     margin-top: 48px;
@@ -121,20 +122,28 @@ div.footer {
 .icon-16 {
     font-family: TVR Icons;
     font-size: 16px;
-    transform:rotate(0.001deg)
+    transform:rotate(0.001deg);
+    cursor: default;
+    color: #b3b3b3;
 }
 .icon-24 {
     font-family: TVR Icons;
     font-size: 24px;
-    transform:rotate(0.001deg)
+    transform:rotate(0.001deg);
+    cursor: default;
+    color: #b3b3b3;
 }
 .icon-48 {
     font-family: TVR Icons;
     font-size: 48px;
+    cursor: default;
+    color: #b3b3b3;
 }
 .icon-96 {
     font-family: TVR Icons;
     font-size: 96px;
+    cursor: default;
+    color: #b3b3b3;
 }
 /**/
 
