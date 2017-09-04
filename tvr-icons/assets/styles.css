@@ -80,6 +80,16 @@ div.icon-row.last {
     border-bottom: 0;
 }
 
+span.caption {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding-top: 16px;
+    display: block;
+    letter-spacing: 0.017em;
+}
+
+
 div.col-1 {
     width: 96px;
     display: inline-block;
